@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+* {
+  margin: 0px;
+} 
+
+#framee{
+  width: 100%;
+  margin-top: 50px;
+  
+
+}
+
+
+button[type=submit] {
+  background-color: #0065FF;
+  color: #EDFFE3;
+
+  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); */
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 275px;
+  margin-right:12px ;
+  height: 50px;
+  width: 160px;
+  border-radius: 12px;
+  border: none;
+  background-color: #0065FF;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button[type=submit]:hover {
+  background-color: #0065FF;
+  color: #edffe373;
+}
+
+
+input {
+  margin-top: 8px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  width: 414px;
+  height: 50px;
+  border: 1px solid rgba(1, 42, 85, 0.37);
+  border-radius: 12px;
+  float: left;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  padding: 0px 16px;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: #033f9888;
+}
+
+input:focus {
+  border: 1px solid #0065FF;
+}
+
+
+ 
+#button_search_student {
+  width: 100px;
+  margin-left:13px ;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  float: left;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #42424269;
+  font-family: 'Poppins', sans-serif;
+}
+
+button[type=submit1]:hover {
+  background-color: #0065FF;
+  color: #112fdb;
+}
+
+
+#div_searching{
+  margin-top: 30px;
+  margin-left: 700px;
+
+}

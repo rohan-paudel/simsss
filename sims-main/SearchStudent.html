@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SearchStudent</title>
+  <link rel="stylesheet" href="/assets/css/searchStudent.css">
+</head>
+
+<body>
+
+ 
+    <div id="div_searching">
+      
+    
+      <form width="200px">
+   
+      <!-- <label for="text_field_search_student"> Search Student : </label> -->
+
+      <input type="text" name="search_student"  id="text_field_search_student" placeholder="Search For Student....">
+      <button type="submit1" id="button_search_student">Search</button>
+    </form>
+    
+    </div>
+ 
+<br><BR><BR><BR>
+    <a href="./addStudentDetails.html">
+    <button type="submit" id="add_student">Add Student</button></a><br>
+   
+
+
+<center>
+    <iframe src="./TableSearchStudent.html" title="description" id="framee" frameborder="0" ></iframe>
+
+</center>
+<script>
+  const framee = document.getElementById("framee");
+  framee.onload = function(){
+    if(framee.contentWindow.document.body.scrollHeight < window.innerHeight){
+      framee.style.height= '100vh';
+    } else {
+      framee.style.height = framee.contentWindow.document.body.scrollHeight+100 + 'px';
+    }
+    
+
+    //framee.style.width = framee.contentWindow.document.body.scrollWidth+100 +'px';
+}
+</script>
+</body>
+
+</html>

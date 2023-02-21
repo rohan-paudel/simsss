@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/addStudentDetails.css">
+  <title>Add Student</title>
+</head>
+
+<h3> Student Details</h3>
+
+
+<!-- STUDENT NAME SECTION -->
+
+<div id="firstname">
+  <label for="user_firstname" class="label_firstname">First Name</label></br>
+  <input type="lfirstname" name="user_firstname" id="user_firstname" /> </br>
+</div>
+
+<div id="middlename">
+  <label for="user_middlename" class="label_middlename">Middle Name</label></br>
+  <input type="middlename" name="user_firstname" id="user_middlename" /> </br>
+</div>
+
+<div id="lastname">
+  <label for="user_lastname" class="label_lastname">Last Name</label></br>
+  <input type="lastname" name="user_lastname" id="user_lastname" /></br>
+</div>
+
+<!-- STUDENT DOB -->
+
+<div id="dob">
+  <label for="user_dob" class="label_dob">Date Of Birth</label></br>
+  <input type="date" name="user_dob" id="user_dob" /> </br>
+</div>
+
+
+<!-- STUDENT gender -->
+<div id="div_gender">
+  <label for="gender" class="class_gender">Gender</label><br>
+  <select name="gender" id="gender">
+    <option value="Male" selected>Male</option>
+    <option value="Female">Female</option>
+  </select><br>
+</div>
+
+
+<!-- STUDENT ROLL NUMBER-->
+
+<!--Joined year-->
+<div id="joinyear">
+  <label for="user_joinedyear" class="label_joinedyear">Joined year</label></br>
+  <input type="joinedyear" name="user_joinedyear" id="user_joinedyear" /> </br>
+</div>
+
+<div id="rollnumber">
+  <label for="user_longrollnumber" class="label_longrollnumber">Roll number</label></br>
+  <input type="rollnumber" name="user_longrollnumber" id="user_longrollnumber" /> </br>
+</div>
+
+<!--FACULTY-->
+<div id="faculty">
+  <label for="user_faculty" class="label_faculty">Faculty</label></br>
+  <input type="faculty" name="user_faculty" id="user_faculty" /> </br>
+</div>
+<!--STUDENT EMAIL-->
+<div id="email">
+  <label for="user_Email" class="label_Email">Email</label></br>
+  <input type="email" name="user_Email" id="user_Email" /></br>
+</div>
+
+
+
+
+
+
+<!-- STUDENT CONTACTS -->
+<div id="contactno.">
+  <label for="user_contactnumber" class="label_contactnumber">Phone number</label></br>
+  <input type="tel" name="user_phonenumber" id="user_phonenumber" /> </br>
+</div>
+
+<!--STUDENT GUARDIANCE -->
+<div id="guardance ">
+  <label for="user_Guardiancenumber" class="label_Guardiancenumber">Guardian Phone Number</label></br>
+  <input type="tel" name="user_Guardiancenumber" id="user_Guardiancenumber" />
+</div>
+
+<!-- STUDENT PROFILE PICTURE-->
+<div id="image">
+  <label for="img">Upload Profile Picture</label><br>
+  <input type="file" id="img" name="img">
+</div><br>
+
+<button type="submit" name="submit_details" id="submit_details">Submit</button><br>
+
+
+
+
+<script type="module" src="assets/js/addStudentDetails.js">
+</script>
+
+
+</body>
+
+</html>

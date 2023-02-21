@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+*{
+    margin: 0px;
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    color:#0065FF ;
+    margin-top: 43px ;
+    margin-left: 46px;
+
+}
+
+h3 {
+    font-size :25px;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+
+input[type=text], select, textarea {
+    margin-top: 6px;
+    margin-bottom: 16px; 
+     /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #0066ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  input::placeholder
+{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color : #00000088;
+}
+
+input:focus 
+{ 
+border: 1px solid #0065FF;
+}
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #0043a8;
+  }
+  
+#content
+{
+    box-sizing: border-box; 
+    margin-top: 12px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(1, 42, 85, 0.37);
+    border-radius: 12px;    
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color :#000000;
+    padding: 16px;
+    width: 98%;
+    resize: vertical;
+    
+}
+
+#date
+{
+    box-sizing: border-box; 
+    margin-top: 12px;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    width: 414px;
+    height: 52px;
+    border: 1px solid rgba(1, 42, 85, 0.37);
+    border-radius: 12px;    
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color :#000000;
+    padding: 16px;
+}
+
+#short_notice
+{
+    box-sizing: border-box; 
+    margin-top: 12px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(1, 42, 85, 0.37);
+    border-radius: 12px;    
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color :#000000;
+    padding: 16px;
+    width: 98%;
+    resize: vertical;
+    
+}
+
+#publisher
+{
+    box-sizing: border-box; 
+    margin-top: 12px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(1, 42, 85, 0.37);
+    border-radius: 12px;    
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color :#000000;
+    padding: 16px;
+    width: 98%;
+    resize: vertical;
+    
+}
+
+
+
+  label {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom:8px; 
+    margin-left: 5px; 
+    text-decoration: right;  
+    color: #000000;
+}
+
+

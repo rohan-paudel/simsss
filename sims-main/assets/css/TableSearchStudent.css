@@ -1,0 +1,59 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 300px;
+  width: 82%;
+  margin-left: 275px;
+}
+
+table th {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600px;
+
+
+}
+
+table td {
+font-size: 21px;
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+table th,
+td {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px;
+  font-size: 21px;
+  cursor: default;
+  margin: auto;
+}
+
+/* for making zebra style strpie in table */
+tr:nth-child(even) {
+  background-color: #42424217;
+}
+
+
+
+tr:hover {
+  background-color: #ebebeba9;
+}
+
+#button_view_details_student{
+  width: 100px;
+  margin-left: -10px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0.1px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #42424260;
+  font-family: 'Poppins', sans-serif;
+}
+
+button[type=submit]:hover {
+  background-color: #0065FF;
+  color: #112fdb;
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  color: #0065FF;
+  margin-top: 43px;
+  margin-left: 46px;
+
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+
+label {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  text-decoration: right;
+  color: #000000;
+}
+
+select {
+  outline: none;
+  background-color: rgba(1, 42, 85, 0.15);
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 16px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgba(1, 42, 85, 0.37);
+  border-radius: 12px;
+}
+
+input {
+  outline: none;
+  background-color: #ffffff;
+  ;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  /* padding-top:6px; */
+  padding: 0px 16px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgba(1, 42, 85, 0.37);
+  border-radius: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+
+input::placeholder {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #033f9888;
+
+}
+
+input:focus {
+  border: 1px solid #0065FF;
+
+}
+
+#image {
+  margin-top: 15px;
+  background-color: #fff;
+
+}
+
+#firstname {
+  float: left;
+  margin-right: 10px;
+}
+
+#middlename {
+  float: left;
+  margin-right: 10px;
+}
+
+#joinyear {
+  float: left;
+  margin-right: 20px;
+}
+
+#rollnumber {
+  float: left;
+  margin-right: 10px;
+}
+
+#email {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #0066ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #0043a8;
+}
+
+input::file-selector-button {
+  background-image: linear-gradient(to right,
+      #ff7a18,
+      #af002d,
+      #319197 100%,
+      #319197 200%);
+  background-position-x: 0%;
+  background-size: 200%;
+  border: 0;
+  border-radius: 12px;
+  color: #fff;
+  padding: 8px;
+  text-shadow: 0 1px 1px #333;
+  transition: all 0.25s;
+  margin-left: -15px;
+}
+
+input::file-selector-button:hover {
+  background-position-x: 100%;
+  transform: scale(1);
+}
+
+#img {
+  background-color: #fff;
+  border: #fff;
+  height: auto;
+  width: auto;
+}
+
+#gender {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #fff;
+}
